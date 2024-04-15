@@ -1,0 +1,64 @@
+.contact_us{
+    margin-top: 10vh;
+    background-image: url("/pics/banners/banner_contact_us.png");
+    height: 63vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFFFFF;
+}
+.contact_us>a{
+    text-decoration: none;
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    height: 36px;
+}
+.contact_us h2{
+    color: #FFF;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    height: 11vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    width: 43vw;
+}
+div.contact_phone img{
+    margin-right: 1vw;
+    height: 24px;
+}
+div.contact_email img{
+    height: 14px;
+    width: 17px;
+    margin: 13px 1vw 9px 0;
+}
+.contact_phone,.contact_email{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    height: 36px;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+div.social_media{
+    width: 22vw;
+    display: flex;
+    justify-content: space-between;
+}
+div.social_media img{
+    width: 50px;
+    height: 50px;
+}
