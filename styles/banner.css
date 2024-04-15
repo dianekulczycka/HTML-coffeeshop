@@ -1,0 +1,94 @@
+/* ================================== BLOCKS ================================= */
+
+.banner {
+    background-image: url('pics/banners/banner_hero_area.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 71.19vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =============================== ELEMENTS =================================== */
+
+.logo img {
+    width: 50.174px;
+    height: 50px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo p {
+    width: 75.261px;
+    color: #FF4B32;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+}
+
+.menu_item {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    opacity: 0.6;
+    list-style-type: none;
+}
+
+.active_item {
+    width: 54.188px;
+    color: #FF4B32;
+    font-weight: 700;
+    opacity: 1;
+}
+
+ul li:nth-child(2) {
+    width: 78.272px;
+}
+
+ul li:nth-child(3) {
+    width: 49.171px;
+}
+
+ul li:nth-child(4) {
+    width: 59.206px;
+}
+
+ul li:nth-child(5) {
+    width: 65.226px;
+}
+
+.hero_area_info h1 {
+    width: 524px;
+    color: #FFF;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 120%; /* 69.6px */
+}
+
+.hero_area_info p {
+    width: 506px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 160%; /* 32px */
+    opacity: 0.8;
+}
+
+.hero_area_info button {
+    display: inline-flex;
+    padding: 16px 35px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    background: #FF4B32;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+}
+
+
