@@ -1,4 +1,4 @@
-.contact_us{
+.contact_us {
     margin-top: 10vh;
     background-image: url("/pics/banners/banner_contact_us.png");
     height: 63vh;
@@ -10,7 +10,8 @@
     align-items: center;
     color: #FFFFFF;
 }
-.contact_us>a{
+
+.contact_us > a {
     text-decoration: none;
     color: #FF4B32;
     text-align: center;
@@ -21,7 +22,8 @@
     line-height: 150%;
     height: 36px;
 }
-.contact_us h2{
+
+.contact_us h4 {
     color: #FFF;
     text-align: center;
     font-family: "Josefin Sans", sans-serif;
@@ -32,16 +34,19 @@
     line-height: 130%;
     width: 43vw;
 }
-div.contact_phone img{
+
+div.contact_phone img {
     margin-right: 1vw;
     height: 24px;
 }
-div.contact_email img{
+
+div.contact_email img {
     height: 14px;
     width: 17px;
     margin: 13px 1vw 9px 0;
 }
-.contact_phone,.contact_email{
+
+.contact_phone, .contact_email {
     display: flex;
     justify-items: center;
     text-align: center;
@@ -53,12 +58,14 @@ div.contact_email img{
     font-weight: 400;
     line-height: 150%;
 }
-div.social_media{
+
+div.social_media {
     width: 22vw;
     display: flex;
     justify-content: space-between;
 }
-div.social_media img{
+
+div.social_media img {
     width: 50px;
     height: 50px;
 }
