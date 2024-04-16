@@ -48,6 +48,12 @@
     image-rendering: auto;
 }
 
+.news_card:hover img {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: ease-in-out 300ms;
+}
+
 .news_card h4 {
     color: #000;
     font-family: "Josefin Sans", sans-serif;
@@ -82,4 +88,10 @@
     font-weight: 600;
     line-height: 160%;
     margin: 2vh 0 3vh 2.4vw;
+}
+
+.news_card a:hover {
+    cursor: pointer;
+    color: #b93c24;
+    transition: 300ms ease-in-out;
 }

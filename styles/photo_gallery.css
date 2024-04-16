@@ -53,9 +53,10 @@
     transition: ease-in-out 500ms;
 }
 
-.photo_gallery button {
+.photo_gallery a {
     color: #FF4B32;
     text-align: center;
+    text-decoration: none;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -65,8 +66,8 @@
     border: none;
 }
 
-.photo_gallery button:hover {
+.photo_gallery a:hover {
     cursor: pointer;
-    opacity: 0.6;
-    transition: ease-in-out 300ms;
+    color: #b93c24;
+    transition: ease-in-out 400ms;
 }

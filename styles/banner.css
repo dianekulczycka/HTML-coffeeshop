@@ -66,6 +66,12 @@ header {
     list-style-type: none;
 }
 
+.menu_item:hover {
+    opacity: 1;
+    transition: 200ms ease-in;
+    cursor: pointer;
+}
+
 .active_item {
     width: 54.188px;
     color: #FF4B32;
@@ -118,5 +124,12 @@ ul li:nth-child(5) {
     font-weight: 600;
     line-height: 160%; /* 28.8px */
 }
+
+.hero_area_info button:hover {
+    cursor: pointer;
+    background: #b93c24;
+    transition: 500ms ease-in-out;
+}
+
 
 
