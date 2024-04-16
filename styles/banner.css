@@ -1,15 +1,43 @@
 /* ================================== BLOCKS ================================= */
 
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 2.6vh;
+
+}
+
 .banner {
-    background-image: url('pics/banners/banner_hero_area.png');
+    background-image: url('/pics/banners/banner_hero_area.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 71.19vh;
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
     align-items: center;
+    margin-left: 26.5vw;
+}
+
+.menu ul {
+    width: 33.6vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_area_info {
+    height: 53.4vh;
+    width: 36.4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10vw;
+    justify-content: space-evenly;
 }
 
 /* =============================== ELEMENTS =================================== */
@@ -62,7 +90,7 @@ ul li:nth-child(5) {
 }
 
 .hero_area_info h1 {
-    width: 524px;
+    width: 51.17vw;
     color: #FFF;
     font-size: 58px;
     font-weight: 500;
@@ -70,7 +98,7 @@ ul li:nth-child(5) {
 }
 
 .hero_area_info p {
-    width: 506px;
+    width: 49.41vw;
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
