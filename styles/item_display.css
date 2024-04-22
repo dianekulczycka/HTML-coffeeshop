@@ -1,3 +1,77 @@
+/* ================================== BLOCKS ================================= */
+
+.item_display {
+    margin-bottom: 22.1vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column ;
+}
+
+.item_display_cards {
+    height: 56vh;
+    margin: 5.8vh 10.2vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_display_card {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* =============================== ELEMENTS =================================== */
+
+.item_display h3 {
+    margin-top: 13.6vh;
+    margin-left: 10vw;
+    width: 590px;
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 130%; /* 55.9px */
+    letter-spacing: 6.45px;
+}
+
+.item_display p {
+    margin-top: 2vh;
+    margin-left: 10.2vw;
+    width: 506px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    opacity: 0.7;
+}
+
+.item_display_card img {
+    height: 25.8vh;
+    width: 20.8vw;
+}
+
+.item_display_card span {
+    color: #0C0D0C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+}
+
+.item_display_card h4 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 130%; /* 41.6px */
+}
+
+.item_display_card p {
+    margin: 0;
+    width: 17.8vw;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    opacity: 0.6;
+}
+=======
 .item_display {
     display: flex;
     flex-direction: column;
