@@ -1,25 +1,19 @@
-
-footer {
-
-}
 .footer_main{
     display: flex;
     background: #0d0402;
     color: #FFF;
-    height: 406px;
+    height: 39vh;
+    margin-top: 9.7vh;
     align-items: center;
-    justify-content: space-around;
-    margin-left: -25rem;
-    background-image: url('/pics/Group.svg');
-    background-position: top;
-    background-position: center;
-
+    justify-content: space-between;
+    background-image: url('/pics/Group.png');
 
 }
 .logo{ display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: -20px;
+    margin-left: 10.2vw;
 }
 .logo p{
     margin-top: 30px;
@@ -58,6 +52,7 @@ footer {
 }
 .social_media{
     margin-top: -20px;
+    margin-right: 11.5vw;
 }
 .social_media h4{
     color: #FFF;
@@ -73,9 +68,11 @@ footer {
     margin-right:20px;
 }
 .copyright{
+    position: absolute;
     background: #0D0402;
     color: #FFF;
     display: flex;
     justify-content: center;
-    margin-top: -50px;
+    margin-top: -30px;
+    margin-left: 31.1vw;
 }

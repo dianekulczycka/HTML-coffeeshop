@@ -68,6 +68,7 @@ div.social_media {
     width: 22vw;
     display: flex;
     justify-content: space-between;
+    margin-right: 0;
 }
 
 div.social_media img {
