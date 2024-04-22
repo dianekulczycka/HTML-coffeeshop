@@ -23,6 +23,7 @@ header .logo {
     display: flex;
     align-items: flex-end;
     flex-direction: row;
+    margin-left: 0;
 }
 
 .menu ul {

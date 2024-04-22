@@ -5,16 +5,17 @@
     height: 100vh;
     display: flex;
     flex-direction: column ;
+
 }
 
 .item_display .item_display_cards {
     height: 56vh;
-    margin: 5.8vh 0;
+    width: 79.5vw;
+    margin: 5.8vh 10.2vw;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 0;
-    width: 100%;
 }
 
 .item_display_card {
