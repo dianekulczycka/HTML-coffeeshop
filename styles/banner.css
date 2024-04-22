@@ -3,7 +3,8 @@
 header {
     display: flex;
     align-items: center;
-    margin-top: 2.6vh;
+    justify-content: center;
+    margin-top: 5.5vh;
 
 }
 
@@ -18,10 +19,11 @@ header {
     flex-direction: column;
 }
 
-.logo {
+header .logo {
     display: flex;
-    align-items: center;
-    margin-left: 26.5vw;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-left: 0;
 }
 
 .menu ul {
@@ -30,12 +32,13 @@ header {
     justify-content: space-between;
 }
 
-.hero_area_info {
+.banner .hero_area_info {
     height: 53.4vh;
     width: 36.4vw;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 3vh;
     margin-left: 10vw;
     justify-content: space-evenly;
 }

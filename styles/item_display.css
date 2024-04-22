@@ -5,13 +5,17 @@
     height: 100vh;
     display: flex;
     flex-direction: column ;
+
 }
 
-.item_display_cards {
+.item_display .item_display_cards {
     height: 56vh;
+    width: 79.5vw;
     margin: 5.8vh 10.2vw;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
 }
 
 .item_display_card {
@@ -71,7 +75,7 @@
     line-height: 160%; /* 25.6px */
     opacity: 0.6;
 }
-=======
+
 .item_display {
     display: flex;
     flex-direction: column;
