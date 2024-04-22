@@ -29,14 +29,14 @@
 
 .news_cards {
     width: 80vw;
-    height: 52vh;
+    height: 56vh;
     display: flex;
     justify-content: space-between;
 }
 
 .news_card {
     width: 25vw;
-    height: 52vh;
+    height: 56vh;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.20);
