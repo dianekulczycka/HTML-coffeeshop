@@ -26,6 +26,11 @@ header .logo {
     margin-left: 0;
 }
 
+header .logo span {
+    margin-left: 0.25em;
+    margin-bottom: 0.1em;
+}
+
 .menu ul {
     width: 33.6vw;
     display: flex;
@@ -58,6 +63,7 @@ header .logo {
     font-size: 24px;
     font-weight: 700;
     line-height: 130%; /* 31.2px */
+
 }
 
 .menu_item {
